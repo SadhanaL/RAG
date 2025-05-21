@@ -7,7 +7,8 @@ This Repo has implemented RAG (Retrieval-Augmented Generation) chatbot using Oll
 Ollama can be downloaded from the link here: https://ollama.com/download
 
 After installing, open a terminal and run the following command to download the required models:
-'''
+
+```bash
 ollama pull hf.co/CompendiumLabs/bge-base-en-v1.5-gguf
 ollama pull hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF
-'''
+
