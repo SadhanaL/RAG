@@ -21,3 +21,6 @@ Run the file catbot.py or AIAbot.py with the following commands:
 python /catbot.py
 python /AIAbot.py
 ```
+Inside the RAG folder add in a folder called pdf_folder and add all the pdf files which acts as your external knowledge base. Once all the necessary files are added, the AIAbot will parse the sentences in each file and embedd them. When a query is input, the bot generates a response that has the closest cosine similarity to the query embedding. 
+
+For the catbot to work, a simple text file with lines of facts about cat can be added under the RAG folder.
